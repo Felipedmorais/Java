@@ -1,20 +1,11 @@
 public class number1 {
-    private int[][] matriz;
-    private int tamanho;
+    private int potencia;
 
-    public number1(int[][] matriz) {
-        this.matriz = matriz;
+    public number1(int potencia) {
+        this.potencia = potencia;
     }
 
-    public void exibirmatriz(int[][] matriz, int n) {
-        System.out.println("Matriz digitada:");
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(matriz[i][j] + " ");
-            }
-            System.out.println();
-        }
+    public void ligar(){
+        System.out.println("Motor ligado! ha " + potencia);
     }
-
-
 }
